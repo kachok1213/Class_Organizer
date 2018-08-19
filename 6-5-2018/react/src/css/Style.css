@@ -1,0 +1,163 @@
+﻿html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin:0;
+	padding:0;
+	border:0;
+	outline:0;
+	font-weight:inherit;
+	font-style:inherit;
+	font-size:100%;
+	vertical-align:baseline;
+}
+
+html
+{
+
+    margin-bottom: 0px; 
+}
+
+body 
+{
+    text-align:left;
+    margin-bottom: 0px;
+    font-family: 'Heebo', sans-serif;
+	direction:rtl;
+	
+}
+
+body.colors
+{
+	background-image: url(../images/bg.jpg);
+	background-size: cover;
+}
+
+div.logo
+{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+div.logo img
+{
+	height: 120px;
+	animation-name: loader;
+	animation-duration: 3s;
+	animation-direction: normal;
+}
+
+@keyframes loader 
+{
+	from{transform: rotate(0deg);}
+	to{transform: rotate(720deg);}
+}
+
+div.login
+{
+	width: 320px;
+    height: 263px;
+    background-color: white;
+    margin: 0 auto;
+    border-radius: 20px;
+    box-shadow: 0px 0px 15px lightblue;
+	margin-top: 250px;
+	opacity: 0;	
+	font-size: 20px;
+	box-sizing: border-box;
+	padding-top: 30px;
+}
+
+form
+{
+	text-align: center;
+}
+
+div.login input
+{
+	width: 80%;
+	margin-bottom: 14px;
+	padding: 14px;
+	border: none;
+	outline: none;
+	font-size: 13px;
+}
+
+div.login img{
+	width: 13px;
+	margin-bottom: -3px;
+	margin-left: -21px;
+}
+
+div.login input[type=text]
+{
+	background-color: transparent;
+	border-bottom: 1px solid lightgray;
+	font-family: 'Heebo', sans-serif;
+	transition: 0.65s;
+	height: 32px;
+	text-indent: 15px;
+}
+
+div.login input[type=password]
+{
+	background-color: transparent;
+	border-bottom: 1px solid lightgray;
+	font-family: 'Heebo', sans-serif;
+	transition: 0.65s;
+	height: 32px;
+	text-indent: 15px;
+}
+
+div.login input[type=text]:focus{
+	border-bottom: 1px solid #a0a0a0;
+}
+div.login input[type=password]:focus{
+	border-bottom: 1px solid #a0a0a0;
+}
+
+div.login input[type=button]
+{
+	background-color: #ed7e7e;
+	color: white;
+	box-shadow: 0px 0px 2px #ed7e7e;
+	border-radius: 5px;
+	font-family: 'Heebo', sans-serif;
+}
+
+div.login div.checkbox
+{
+	float: right;
+	width: 80px;
+	margin-right: 26px;
+	padding-top: 15px;
+	padding-bottom: 10px;
+}
+
+div.login input[type=checkbox]
+{
+	width: 20%;
+	float: right;
+}
+
+div.login div.checkbox h3
+{
+	font-size: 13px;
+	float: left;
+	margin-top: -1px;
+	color: #6b6b6b;
+
+
+}
+
+div.login h6{
+	font-size: 11px;
+	color: red;
+	margin: 0px;
+}

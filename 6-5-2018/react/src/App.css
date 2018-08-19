@@ -1,0 +1,38 @@
+
+
+.user1{
+  width:200px;
+position: absolute;
+top :90%;
+
+}
+
+.user2{
+  width:200px;
+  position: absolute;
+  top :90%;
+  left :50%;
+  }
+
+  .user1Msg {
+    position: absolute;
+    top :10%;
+  }
+
+  .user2Msg {
+    position: absolute;
+    top :10%;
+    left :50%;
+  }
+
+  .txt {
+    width:150px;
+    height: 100px;
+    
+  }
+
+  .btn{
+     border:none;
+     border-radius: 50%;
+     background-color:#737c6f;
+  }
